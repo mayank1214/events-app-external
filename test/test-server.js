@@ -30,8 +30,6 @@ describe('GET /', function () {
         chai.assert.isTrue(res.text.includes("<h1>Welcome to Mayank application</h1>"));
         return done();
       });
-
-
   });
 
 
